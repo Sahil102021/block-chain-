@@ -1,0 +1,40 @@
+:root {
+
+        /* font */
+        --font-primary: "Saira";
+        --font-secondary: "Clash Display";
+        --font-tertiary: "Harmattan";
+
+        /* color */
+        --bg-dark-blue-primary : #141418;
+        --bg-orange : #F28B0C;
+        --bg-dark-blue-grey : #325573;
+        --bg-yellow : #F2D027;
+        --bg-white : #fff;
+        --bg-lighter-white : #FFFFFF1A;
+        --bg-green : #11C535;
+        --bg-dark-green : #055B5C;
+        --bg-light-yellow : #FFFF37;
+        --bg-dark-sky-blue :#121B1F;
+        --bg-dark-blue : #161F2D;
+        --bg-black-transparent : #14141800;
+
+
+        /* container */
+        --main-container : 1540px;
+
+        /* space */
+        --section-space : 120px;
+        --space-side : 40px;
+
+        /* size */
+        --logo-size : 56px;
+
+        /* header height */
+        --header-height : 104px;
+
+
+
+
+
+}

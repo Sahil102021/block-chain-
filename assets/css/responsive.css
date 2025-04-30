@@ -1,0 +1,108 @@
+/* Website Responsive CSS Start */
+/* Container CSS start */
+@media (min-width: 1280px) {
+    :root {
+        --main-container: 1140px;
+    }
+}
+
+@media (min-width: 1366px) {
+    :root {
+        --main-container: 1320px;
+    }
+}
+
+@media (min-width: 1600px) {
+    :root {
+        --main-container: 1540px;
+    }
+}
+
+@media (min-width: 1800px) {
+    :root {
+        --main-container: 1540px;
+    }
+}
+
+/* Container CSS End */
+
+@media (max-width: 1799px) {}
+
+@media (max-width: 1599px) {
+    :root {
+        --header-height :90px;
+    }
+    .header {
+        padding: 0 45px;
+    }
+}
+
+@media (max-width: 1439px) {}
+
+@media (max-width: 1365px) {}
+
+@media (max-width: 1279px) {
+    :root {
+        --main-container: calc(100% - 20px);
+        --logo-size: 46px;
+    }
+
+    .button-primary {
+        min-width: 140px;
+        min-height: 45px;
+    }
+}
+
+@media (max-width: 1199px) {
+    :root {
+        --logo-size: 40px;
+        --header-height: 80px;
+    }
+
+    .button-primary {
+        min-width: 120px;
+        min-height: 40px;
+    }
+
+    .font-size-md {
+        font-size: 18px;
+    }
+
+    .list ul li a:hover,
+    .list ul li a:focus {
+        &::before {
+            content: '';
+            left: -12.5px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .list ul li a:hover,
+    .list ul li a:focus {
+        &::before {
+            content: '';
+            left: -7.5px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    :root {
+        --header-height: 70px;
+    }
+}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 480px) {
+    :root {
+        --header-height: 60px;
+        --logo-size: 30px;
+    }
+}
+
+@media (max-width: 399px) {}
+
+@media (max-width: 349px) {}

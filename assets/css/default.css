@@ -1,0 +1,67 @@
+@import url('../css/font.css');
+@import url('../css/variables.css');
+
+
+body {
+    background-color: var(--bg-dark-blue-primary);
+}
+
+.main-container {
+    width: var(--main-container);
+    margin: auto;
+}
+
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.font-secondary {
+    font-family: var(--font-secondary);
+}
+
+.font-tertiary {
+    font-family: var(--font-tertiary);
+}
+
+.font-size-xs {
+    font-size: 16px;
+}
+
+.font-size-sm {
+    font-size: 18px;
+}
+
+.font-size-md {
+    font-size: 20px;
+}
+
+.font-size-lg {
+    font-size: 22px;
+}
+
+.font-size-xl {
+    font-size: 24px;
+}
+
+.font-size-3xl {
+    font-size: 32px;
+}
+
+.font-size-4xl {
+    font-size: 40px;
+}
+
+.font-size-5xl {
+    font-size: 64px;
+}
+
+.font-size-6xl {
+    font-size: 104px;
+}
+
+.font-size-7xl {
+    font-size: 120px;
+}
+.section-space {
+    padding-top: var(--section-space);
+}

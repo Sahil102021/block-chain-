@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Saira';
+    src: url('../font/Saira-Medium.woff2') format('woff2'),
+        url('../font/Saira-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saira';
+    src: url('../font/Saira-SemiBold.woff2') format('woff2'),
+        url('../font/Saira-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Saira';
+    src: url('../font/Saira-Regular.woff2') format('woff2'),
+        url('../font/Saira-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('../font/ClashDisplay-Semibold.woff2') format('woff2'),
+        url('../font/ClashDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Harmattan';
+    src: url('../font/Harmattan-Regular.woff2') format('woff2'),
+        url('../font/Harmattan-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roadmap Section with Drawer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+
+    .roadmap-section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .roadmap-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .roadmap-subtitle {
+      color: #aaa;
+      max-width: 700px;
+      margin: 0 auto 50px auto;
+      font-size: 1rem;
+    }
+
+    .step-box {
+      background: #1a1a1a;
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .step-box:hover {
+      background: #2c2c2c;
+    }
+
+    .step-box.active {
+      background: linear-gradient(180deg, #2e3c48, #161f2d);
+      color: yellow;
+    }
+
+    .timeline-line {
+      border-left: 2px solid #fff;
+      height: 80px;
+      margin: 0 auto;
+    }
+
+    .arrow-icon {
+      margin-right: 10px;
+      color: #f2d027;
+    }
+
+    .offcanvas-dark {
+      background-color: #161f2d;
+      color: white;
+    }
+
+    .offcanvas-title {
+      color: #f2d027;
+    }
+
+    .roadmap-content {
+      text-align: left;
+    }
+
+    .roadmap-content p {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+<section class="roadmap-section" id="roadmap">
+  <h2 class="roadmap-title">Our Roadmap</h2>
+  <p class="roadmap-subtitle">
+    Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.
+  </p>
+
+  <div class="d-flex justify-content-center gap-5 flex-wrap mb-4">
+    <div class="text-center">
+      <div class="timeline-line"></div>
+      <div class="step-box" data-bs-toggle="offcanvas" data-bs-target="#step1Drawer">1</div>
+    </div>
+    <div class="text-center">
+      <div class="timeline-line"></div>
+      <div class="step-box" data-bs-toggle="offcanvas" data-bs-target="#step2Drawer">2</div>
+    </div>
+    <div class="text-center">
+      <div class="timeline-line"></div>
+      <div class="step-box active" data-bs-toggle="offcanvas" data-bs-target="#step3Drawer">3</div>
+    </div>
+    <div class="text-center">
+      <div class="timeline-line"></div>
+      <div class="step-box" data-bs-toggle="offcanvas" data-bs-target="#step4Drawer">4</div>
+    </div>
+    <div class="text-center">
+      <div class="timeline-line"></div>
+      <div class="step-box" data-bs-toggle="offcanvas" data-bs-target="#step5Drawer">5</div>
+    </div>
+  </div>
+</section>
+
+<!-- Offcanvas Drawer (Step 3 Example) -->
+<div class="offcanvas offcanvas-end offcanvas-dark" tabindex="-1" id="step3Drawer">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">3rd Step - 2023</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body roadmap-content">
+    <p><i class="arrow-icon">➞</i> Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+    <p><i class="arrow-icon">➞</i> Debitis et sequi sit. Mollitia libero voluptatem.</p>
+    <p><i class="arrow-icon">➞</i> Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+  </div>
+</div>
+
+<!-- Additional Drawers (Steps 1, 2, 4, 5 — Optional/Empty for now) -->
+<div class="offcanvas offcanvas-end offcanvas-dark" tabindex="-1" id="step1Drawer">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Step 1</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">Coming Soon...</div>
+</div>
+
+<div class="offcanvas offcanvas-end offcanvas-dark" tabindex="-1" id="step2Drawer">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Step 2</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">Coming Soon...</div>
+</div>
+
+<div class="offcanvas offcanvas-end offcanvas-dark" tabindex="-1" id="step4Drawer">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Step 4</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">Coming Soon...</div>
+</div>
+
+<div class="offcanvas offcanvas-end offcanvas-dark" tabindex="-1" id="step5Drawer">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Step 5</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">Coming Soon...</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -6,33 +6,47 @@
         --font-tertiary: "Harmattan";
 
         /* color */
-        --bg-dark-blue-primary : #141418;
-        --bg-orange : #F28B0C;
-        --bg-dark-blue-grey : #325573;
-        --bg-yellow : #F2D027;
-        --bg-white : #fff;
-        --bg-lighter-white : #FFFFFF1A;
-        --bg-green : #11C535;
-        --bg-dark-green : #055B5C;
-        --bg-light-yellow : #FFFF37;
-        --bg-dark-sky-blue :#121B1F;
-        --bg-dark-blue : #161F2D;
-        --bg-black-transparent : #14141800;
+
+        --bg-dark-blue-primary: #141418;
+        --bg-orange: #F28B0C;
+        --bg-grey: #A3A0A6;
+        --bg-dark-blue-grey: #325573;
+        --bg-yellow: #F2D027;
+        --bg-light-yellow: #FFFF37;
+        --bg-green: #11C535;
+        --bg-dark-green: #055B5C;
+        --bg-dark-blue: #161F2D;
+        --bg-dark-sky-blue: #121B1F;
+        --bg-dark-sky: #2E3C48;
+        --bg-white: #FFFFFF;
+        --bg-lighter-white: #FFFFFF1A;
+        --bg-lighter-white-alt: #FFFFFF0D;
+        --bg-white-transparent-very-low: #FFFFFF0A;
+        --bg-black-transparent: #14141800;
 
 
         /* container */
-        --main-container : 1540px;
+        --main-container: 1540px;
 
         /* space */
-        --section-space : 120px;
-        --space-side : 40px;
+        --section-space: 120px;
+        --space-side: 40px;
+        --space-side-base: 50px;
+        --space-side-i: 60px;
+        --space-side-ii: 64px;
 
         /* size */
-        --logo-size : 56px;
+        --logo-size: 56px;
 
         /* header height */
-        --header-height : 104px;
+        --header-height: 104px;
 
+        --size-circle-register: 92px;
+        --size-star: 56px;
+
+        --sectio-title-width-size: 944px;
+        --work-icon-circle-size: 120px;
+        --sectio-Features-icon-size : 64px;
 
 
 

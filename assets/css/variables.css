@@ -6,7 +6,6 @@
         --font-tertiary: "Harmattan";
 
         /* color */
-
         --bg-dark-blue-primary: #141418;
         --bg-orange: #F28B0C;
         --bg-grey: #A3A0A6;
@@ -46,7 +45,8 @@
 
         --sectio-title-width-size: 944px;
         --work-icon-circle-size: 120px;
-        --sectio-Features-icon-size : 64px;
+        --sectio-Features-icon-size: 64px;
+        --footer-logo-size: 64px;
 
 
 

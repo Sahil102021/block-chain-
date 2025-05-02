@@ -5,14 +5,39 @@
 body {
     background-color: var(--bg-dark-blue-primary);
 }
-h1,h2,h3,h4,h5,h6,h7{
+
+.dark-blue {
+    background-color: var(--bg-dark-blue-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
     margin: 0;
     padding: 0;
 }
+
 .main-container {
     width: var(--main-container);
     margin: auto;
 }
+
+.max-1920 {
+    max-width: 1920px;
+    margin: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
 
 .font-primary {
     font-family: var(--font-primary);
@@ -55,71 +80,102 @@ h1,h2,h3,h4,h5,h6,h7{
 }
 
 .font-size-5xl {
-    font-size: 64px;
+    font-size: 48px;
 }
 
 .font-size-6xl {
-    font-size: 104px;
+    font-size: 64px;
 }
 
 .font-size-7xl {
+    font-size: 104px;
+}
+
+.font-size-8xl {
     font-size: 120px;
 }
+
 .section-space {
-    padding: var(--section-space) var(--space-side-base) var(--section-space) var(--space-side-base) ;
+    padding: var(--section-space) var(--space-side-base) var(--section-space) var(--space-side-base);
 }
+
 .section-space-second {
-    padding: var(--space-side) var(--space-side-base) var(--section-space) var(--space-side-base) ;
+    padding: var(--space-side) var(--space-side-base) var(--section-space) var(--space-side-base);
 }
+
 .section-space-t-md {
     padding-top: var(--section-space);
 }
+
 .section-space-y-sm {
     padding: var(--space-side-ii) 0 var(--space-side-ii) 0;
 }
+
+.section-space-t-sm {
+    padding-top: var(--space-side-ii);
+}
+
 .section-space-x-base {
     padding: 0 var(--space-side-base) 0 var(--space-side-base);
 }
+
 .text-yellow {
     color: var(--bg-yellow);
 }
+
 .text-grey {
     color: var(--bg-grey);
 }
+
 .section-title {
-    max-width: var(--sectio-title-width-size); 
+    max-width: var(--sectio-title-width-size);
     margin: auto;
 }
+
 .line-clamp-1 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .line-clamp-3 {
     display: -webkit-box;
     -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .line-clamp-4 {
     display: -webkit-box;
     -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .line-clamp-5 {
     display: -webkit-box;
     -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .gap-6 {
     gap: 33px;
+}
+
+.text-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.line-height-xl {
+    line-height: 36px;
 }

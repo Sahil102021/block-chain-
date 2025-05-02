@@ -18,7 +18,7 @@
 
     <!-- Header Section -->
     <header>
-        <div class="w-100">
+        <div>
             <div class="main-container">
                 <div class="header position-relative">
                     <div class="w-100 h-100 d-flex justify-content-between align-items-center">
@@ -31,7 +31,7 @@
                         </a>
 
                         <!-- Desktop Navigation -->
-                        <div class="list d-none d-md-block">
+                        <div class="header-list d-none d-md-block">
                             <ul class="d-flex flex-row gap-3 gap-lg-4 gap-xl-5 m-0 p-0">
                                 <li><a href="#" class="text-light font-primary font-size-md">Home</a></li>
                                 <li><a href="#" class="text-light font-primary font-size-md">How it Works</a></li>
@@ -65,17 +65,17 @@
         </div>
     </header>
 
-    <!-- hero -->
+    <!-- hero section -->
     <section>
-        <div class="w-100 position-relative">
+        <div class="w-100 position-relative max-1920">
             <div class="main-container">
                 <div class="section-space-t-md hero-title ">
                     <div class="font-secondary d-flex flex-column gap-6">
-                        <h1 class="font-size-6xl text-white text-start text-uppercase">"Building <span
+                        <h1 class="font-size-7xl text-white text-start text-uppercase">"Building <span
                                 class="text-yellow">Trust</span>
                         </h1>
-                        <h1 class="font-size-6xl text-white text-end text-uppercase">in a Digital World</h1>
-                        <h1 class="font-size-6xl text-white text-start text-uppercase">with <span
+                        <h1 class="font-size-7xl text-white text-end text-uppercase">in a Digital World</h1>
+                        <h1 class="font-size-7xl text-white text-start text-uppercase">with <span
                                 class="text-yellow">Blockchain</span>."</h1>
                     </div>
 
@@ -146,15 +146,17 @@
                     </div>
                 </div>
             </div>
+            <div class="blue-shadow position-absolute "></div>
+            <div class="orange-shadow position-absolute "></div>
         </div>
     </section>
 
-    <!-- How it works? -->
+    <!-- section-2 -->
     <section>
-        <div class="w-100">
+        <div class="w-100 position-relative max-1920">
             <div class="main-container section-space">
                 <div class=" section-title">
-                    <h2 class="font-size-5xl font-secondary fw-semibold text-white text-center ">
+                    <h2 class="font-size-6xl font-secondary fw-semibold text-white text-center ">
                         How it works?
                     </h2>
                     <p class="font-primary font-size-md text-grey text-center pt-3">Chain wise buy, sell, trade & stake.
@@ -264,13 +266,19 @@
                     </div>
                 </div>
             </div>
+            <div class="star-shadow position-absolute">
+                <div class="star">
+                    <img src="./assets/images/background/star.png" alt="">
+                </div>
+            </div>
+            <div class="blue-shado-frist position-absolute "></div>
         </div>
     </section>
 
-    <!-- member / account / coat -->
+    <!-- section-3 -->
     <section>
         <div class="w-100">
-            <div class="bg-secondary-color">
+            <div class="bg-secondary-color light-border ">
                 <div class="main-container section-space-y-sm ">
                     <div class="w-100 d-flex justify-content-between align-items-center">
                         <div class="">
@@ -291,9 +299,9 @@
         </div>
     </section>
 
-    <!-- Our Features -->
+    <!-- section-4 -->
     <section>
-        <div class="w-100">
+        <div class="w-100 position-relative max-1920">
             <div class="main-container section-space ">
                 <div class="section-title">
                     <h2 class="font-size-5xl font-secondary fw-semibold text-white text-center ">
@@ -402,31 +410,323 @@
                     </div>
                 </div>
             </div>
+            <div class="orange-shadow-frist position-absolute"></div>
+            <div class="flower-shadow position-absolute">
+                <div class="flower">
+                    <img src="./assets/images/background/flower.png" width="100%" height="100%" alt="">
+                </div> 
+            </div>
         </div>
     </section>
 
 
+    <!-- section-5 -->
     <section>
-        <div class="w-100">
+        <div class="w-100 position-relative max-1920">
             <div class="main-container section-space-second">
                 <div class="section-title">
                     <h2 class="font-size-5xl font-secondary fw-semibold text-white text-center ">
                         Our Roadmap
                     </h2>
-                    <p class="font-primary font-size-md text-grey text-center pt-3">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.
+                    <p class="font-primary font-size-md text-grey text-center pt-3">Nam quisquam nihil. Exercitationem
+                        magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et
+                        sequi sit. Mollitia libero voluptatem.
                     </p>
                 </div>
-                <div class="">
-                    <span class="vertical-line"></span>
+
+                <div class="step-manu d-flex flex-row section-space-t-sm" id="stepAccordion">
+                    <!-- Step 1 -->
+                    <div class="vertical-line"></div>
+                    <span class="vertical-manu d-flex flex-row">
+                        <div>
+                            <button
+                                class="btn-vertical border-0 d-flex flex-column align-items-center justify-content-center margin-side "
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseStep1"
+                                aria-expanded="false" aria-controls="collapseStep1">
+                                <p class=" text-white font-size-5xl">1</p>
+                            </button>
+                            <div class="step-title-vertical collapse collapse-horizontal margin-side" id="collapseStep1" data-bs-parent="#stepAccordion">
+                                <p class="w-100 h-100 text-white font-size-4xl text-vertical d-flex align-items-center"> 1rd step 2023 </p>
+                            </div>
+                        </div>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseStep1" data-bs-parent="#stepAccordion">
+                                <div class="card bg-transparent text-grey card-body">
+                                    <h3 class="text-yellow font-primary font-size-3xl">2023</h3>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                
+                    <!-- Step 2 -->
+                    <div class="vertical-line"></div>
+                    <span class="vertical-manu d-flex flex-row">
+                        <div>
+                            <button
+                                class="btn-vertical border-0 d-flex flex-column align-items-center justify-content-center margin-side "
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseStep2"
+                                aria-expanded="false" aria-controls="collapseStep2">
+                                <p class=" text-white font-size-5xl">2</p>
+                            </button>
+                            <div class="step-title-vertical collapse collapse-horizontal margin-side" id="collapseStep2" data-bs-parent="#stepAccordion">
+                                <p class="w-100 h-100  text-white font-size-4xl text-vertical d-flex align-items-center"> 2rd step 2023 </p>
+                            </div>
+                        </div>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseStep2" data-bs-parent="#stepAccordion">
+                                <div class="card bg-transparent text-grey card-body">
+                                    <h3 class="text-yellow font-primary font-size-3xl">2023</h3>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                
+                    <!-- Step 3 -->
+                    <div class="vertical-line"></div>
+                    <span class="vertical-manu d-flex flex-row">
+                        <div>
+                            <button
+                                class="btn-vertical border-0 d-flex flex-column align-items-center justify-content-center margin-side "
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseStep3"
+                                aria-expanded="true" aria-controls="collapseStep3">
+                                <p class=" text-white font-size-5xl">3</p>
+                            </button>
+                            <div class="step-title-vertical collapse collapse-horizontal margin-side show" id="collapseStep3" data-bs-parent="#stepAccordion">
+                                <p class="w-100 h-100  text-white font-size-4xl text-vertical d-flex align-items-center"> 3rd step 2023 </p>
+                            </div>
+                        </div>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal show " id="collapseStep3" data-bs-parent="#stepAccordion">
+                                <div class="card bg-transparent text-grey card-body">
+                                    <h3 class="text-yellow font-primary font-size-3xl">2023</h3>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                
+                    <!-- Step 4 -->
+                    <div class="vertical-line"></div>
+                    <span class="vertical-manu d-flex flex-row">
+                        <div>
+                            <button
+                                class="btn-vertical border-0 d-flex flex-column align-items-center justify-content-center margin-side "
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseStep4"
+                                aria-expanded="false" aria-controls="collapseStep4">
+                                <p class=" text-white font-size-5xl">4</p>
+                            </button>
+                            <div class="step-title-vertical collapse collapse-horizontal margin-side" id="collapseStep4" data-bs-parent="#stepAccordion">
+                                <p class="w-100 h-100  text-white font-size-4xl text-vertical d-flex align-items-center"> 4rd step 2023 </p>
+                            </div>
+                        </div>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseStep4" data-bs-parent="#stepAccordion">
+                                <div class="card bg-transparent text-grey card-body">
+                                    <h3 class="text-yellow font-primary font-size-3xl">2023</h3>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                
+                    <!-- Step 5 -->
+                    <div class="vertical-line"></div>
+                    <span class="vertical-manu d-flex flex-row">
+                        <div>
+                            <button
+                                class="btn-vertical border-0 d-flex flex-column align-items-center justify-content-center margin-side "
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapseStep5"
+                                aria-expanded="false" aria-controls="collapseStep5">
+                                <p class="text-white font-size-5xl">5</p>
+                            </button>
+                            <div class="step-title-vertical collapse collapse-horizontal margin-side" id="collapseStep5" data-bs-parent="#stepAccordion">
+                                <p class="w-100 h-100  text-white font-size-4xl text-vertical d-flex align-items-center"> 5rd step 2023 </p>
+                            </div>
+                        </div>
+                        <div style="min-height: 120px;">
+                            <div class="collapse collapse-horizontal" id="collapseStep5" data-bs-parent="#stepAccordion">
+                                <div class="card bg-transparent text-grey card-body">
+                                    <h3 class="text-yellow font-primary font-size-3xl">2023</h3>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium. Possimus exercitationem perspiciatis. Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Debitis et sequi sit. Mollitia libero voluptatem.</p>
+                                    </div>
+                                    <div class="d-flex flex-row pt-3">
+                                        <div class="collapse-right-arrow me-2">
+                                            <img src="./assets/images/icon/Arrow 7.png" width="100%" alt="">
+                                        </div>
+                                        <p class="text-grey font-size-md line-height-xl">Nam quisquam nihil. Exercitationem magni dolorem ad quia explicabo laudantium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                
+                    <div class="vertical-line"></div>
                 </div>
             </div>
+            <div class="orange-shadow-second position-absolute"></div>
         </div>
     </section>
 
     <!-- footer -->
-     <section>
-        
-     </section>
+    <footer>
+        <div class="w-100 position-relative">
+            <div class="main-container ">
+                <div class=" section-space-t-sm d-flex flex-row justify-content-center align-items-center gap-3">
+                    <div class="footer-logo">
+                        <img src="./assets/images/logo/Logo.svg" width="100%" height="100%" alt="">
+                    </div>
+                    <h3 class="font-size-4xl font-primary fw-medium text-white">Chainwise</h3>
+                </div>
+                <p class="subtitle font-primary font-size-md text-grey text-center">Deserunt saepe laudantium distinctio
+                    iusto ex. Iusto omnis quibusdam vel ex. Reiciendis odio dolorem quaerat ea libero ut.</p>
+                <div class="footer-list pt-4">
+                    <ul class="w-100 d-flex flex-wrap justify-content-between align-items-center m-0 p-0">
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">How it work</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Features</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Community</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Contact</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Partner</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Help</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">FAQs</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">Suggestion</a></li>
+                        <li><a href="#" class="font-primary font-size-md text-white fw-normal">About us</a></li>
+                    </ul>
+                </div>
+                .
+                <div class="email section-space-t-sm">
+                    <div class="email-background d-flex justify-content-between align-items-center">
+                        <input type="email" id="emial" name="email" placeholder="Enter your e-mail"
+                            class="font-tertiary font-size-xl text-white ">
+                        <div class="subscribe bg-white  d-flex flex-row justify-content-between align-items-center ">
+                            <span class="text-black font-tertiary fw-normal font-size-xl">Subscribe</span>
+                            <div
+                                class="footer-arrow-wraper dark-blue rounded-circle d-flex justify-content-center align-items-center">
+                                <div class="footer-right-arrow">
+                                    <img src="./assets/images/icon/right-arrow-3.svg" width="100%" height="100%" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="icon-list d-flex justify-content-between align-items-center mt-4">
+                    <div class="icon-circle rounded-circle d-flex justify-content-center align-items-center ">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/icon/facebook-1.png" width="100%" height="100%" alt="" />
+                        </div>
+                    </div>
+                    <div class="icon-circle rounded-circle d-flex justify-content-center align-items-center ">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/icon/twitter-1.png" width="100%" height="100%" alt="" />
+                        </div>
+                    </div>
+                    <div class="icon-circle rounded-circle d-flex justify-content-center align-items-center ">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/icon/discrod-1.png" width="100%" height="100%" alt="" />
+                        </div>
+                    </div>
+                    <div class="icon-circle rounded-circle d-flex justify-content-center align-items-center ">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                            <img src="./assets/images/icon/skyape-1.png" width="100%" height="100%" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-space-t-sm">
+                    <div class="Policy  w-100 d-flex justify-content-between align-items flex-wrap ">
+                        <p class="font-primary font-size-xs text-grey d-flex align-items-center">© 2023 chainwise. all
+                            rights reserved.</p>
+                        <p class="font-primary font-size-xs text-grey d-flex align-items-center">Terms & Conditions |
+                            Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-img position-absolute top-0">
+                <img src="./assets/images/background/Group 15 (1).png" width="100%" height="100%" alt="">
+            </div>
+        </div>
+    </footer>
 
 
 

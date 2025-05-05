@@ -126,7 +126,7 @@ h1 {
 
 /* hero */
 .hero-title {
-  max-width: 1240px;
+  max-width: var(--section-title-max-size);
   margin: auto;
 }
 
@@ -285,7 +285,6 @@ h1 {
   border-radius: 50%;
   background: linear-gradient(270deg, var(--bg-yellow) 10%, var(--bg-dark-green) 40%, var(--bg-dark-blue-primary) 70%);
   transition: transform 0.6s ease;
-
   &:hover,
   &:focus-within {
     transform: rotate(360deg);
@@ -298,7 +297,6 @@ h1 {
   border-radius: 50%;
   background-color: var(--bg-dark-blue-primary);
   transition: transform 0.6s ease;
-
   .icon-wrapper-circle:hover &,
   .icon-wrapper-circle:focus-within & {
     transform: rotate(-360deg);
@@ -332,8 +330,8 @@ h1 {
 }
 
 .star-shadow .star {
-  width: 551px;
-  height: 551px;
+  width: var(--shadow-star-size);
+  height: var(--shadow-star-size);
 }
 
 .blue-shado-frist {
@@ -354,10 +352,10 @@ h1 {
 
 .icon-wrapper-square {
   background-color: var(--bg-white-transparent-very-low);
-  width: var(--header-height);
-  height: var(--header-height);
-  min-width: var(--header-height);
-  min-height: var(--header-height);
+  width: var(--icon-wrapper-square-size);
+  height: var(--icon-wrapper-square-size);
+  min-width: var(--icon-wrapper-square-size);
+  min-height: var(--icon-wrapper-square-size);
   border-radius: 8px;
   padding: 20px;
 }
@@ -365,11 +363,13 @@ h1 {
 .icon-wrapper-square .icon {
   width: var(--sectio-Features-icon-size);
   height: var(--sectio-Features-icon-size);
-
+}
+.icon-content {
+  width: 24px;
 }
 
 .features-card {
-  height: 613px;
+  height: var(--feature-card-size);
   padding: var(--space-side) var(--space-side) 0 var(--space-side);
 }
 
@@ -495,6 +495,7 @@ footer {
 }
 
 .footer-img {
+  width: 100%;
   height: 593px;
   mix-blend-mode: hard-light;
   opacity: 25%;
@@ -503,8 +504,8 @@ footer {
 
 /* section-5 */
 .btn-vertical {
-  width: 96px;
-  height: 96px;
+  width: var(--btn-vertical-size );
+  height: var(--btn-vertical-size);
   border-radius: 8px;
   background-color: var(--bg-lighter-white-alt);
 }
@@ -544,7 +545,7 @@ footer {
 }
 
 .step-title-vertical {
-  width: 96px;
+  width: var(--btn-vertical-size);
   height: 100%;
   max-height: 304px;
   border-radius: 0 0 8px 8px;
@@ -562,8 +563,8 @@ footer {
 }
 
 .flower-shadow .flower {
-  width: 281px;
-  height: 281px;
+  width: var(--shadow-flower-size);
+  height: var(--shadow-flower-size);
 }
 
 .flower-shadow {

@@ -40,6 +40,8 @@
         /* header height */
         --header-height: 104px;
 
+        --paragraph-line-height: 36px; 
+
         --size-circle-register: 92px;
         --size-star: 56px;
 
@@ -47,6 +49,12 @@
         --work-icon-circle-size: 120px;
         --sectio-Features-icon-size: 64px;
         --footer-logo-size: 64px;
+        --btn-vertical-size: 96px;
+        --icon-wrapper-square-size: 104px;
+        --shadow-star-size: 551px;
+        --shadow-flower-size: 281px;
+        --feature-card-size: 613px;
+        --section-title-max-size : 1240px;
 
 
 

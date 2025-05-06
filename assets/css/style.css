@@ -54,7 +54,9 @@ h1 {
   }
 }
 
-.header-list ul {}
+.offcanvas-body ul li a:hover , .offcanvas-body ul li a:focus {
+  color: var(--bg-yellow);
+}
 
 .button-primary {
   position: relative;
@@ -148,7 +150,6 @@ h1 {
   border: 1px solid var(--bg-yellow);
   position: relative;
   z-index: 2;
-
   &::before {
     content: '';
     position: absolute;
@@ -170,13 +171,11 @@ h1 {
 
 .register:hover {
   z-index: 2;
-
   .isTextRegister {
     &::before {
       top: 0;
       left: 0;
     }
-
     .arrow {
       display: none;
     }
@@ -192,15 +191,21 @@ h1 {
 }
 
 .hero-left-img {
+  width: 248px;
+  height: 348px;
   top: 5%;
   left: 3%;
   mix-blend-mode: Luminosity;
+  z-index: 0;
 }
 
 .hero-right-img {
+  width: 338px;
+  height: 474px;
   top: 20%;
   right: 2%;
   mix-blend-mode: Luminosity;
+  z-index: 0;
 }
 
 .hero-text-banner {
@@ -257,6 +262,13 @@ h1 {
 }
 
 /* secction 2  */
+
+.custome-col {
+  width: 50%;
+}
+.custome-col-second {
+  width: 33%;
+}
 
 .custome-border {
   width: 100%;
@@ -320,6 +332,7 @@ h1 {
 .dot-line {
   max-width: 64px;
   border: 1px dashed var(--bg-white);
+  position: relative;
 }
 
 .star-shadow {
@@ -369,7 +382,6 @@ h1 {
 }
 
 .features-card {
-  height: var(--feature-card-size);
   padding: var(--space-side) var(--space-side) 0 var(--space-side);
 }
 
@@ -382,6 +394,7 @@ h1 {
 
 .icon-arrow-right {
   width: 24px;
+  height: 44px;
   opacity: 60%;
 }
 
@@ -427,7 +440,7 @@ footer {
 .footer-list ul li {
   z-index: 10;
 }
-
+.footer-list ul li:hover {opacity: 60%; transition:  0.3s all ease-in;} 
 .footer-right-arrow {
   width: 16px;
   rotate: 45;
@@ -478,6 +491,9 @@ footer {
   border: 1px solid var(--bg-white);
   z-index: 10;
 }
+.icon-list .icon-circle:hover , .icon-list .icon-circle:focus  {
+  background-color: var(--bg-dark-blue-grey);
+}
 
 .icon-list .icon-circle .icon {
   width: 20px;
@@ -496,7 +512,7 @@ footer {
 
 .footer-img {
   width: 100%;
-  height: 593px;
+  height: 100%;
   mix-blend-mode: hard-light;
   opacity: 25%;
   z-index: 0;
@@ -526,18 +542,19 @@ footer {
 
 .vertical-line {
   width: 3px;
-  height: 100%;
   background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-  opacity: 100%;
   opacity: 20%;
   position: relative;
-}
-
-.vertical-line::before {
-  width: 20px;
-  height: 20px;
-  background-color: var(--bg-white);
-  position: absolute;
+   &::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: -4px;
+    background-color: var(--bg-white) ;
+    rotate: 45deg;
+  }
 }
 
 .margin-side {
